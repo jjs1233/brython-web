@@ -12,9 +12,9 @@ Usage
 Result
 ---------------------------------------------
 *效果图
-(https://github.com/jjs1233/python-web/blob/main/image/show.png)
+![1.png](https://github.com/jjs1233/python-web/blob/main/image/show.png)
 *代码编辑区域
-https://github.com/jjs1233/python-web/blob/main/image/code.png
+![2.png]https://github.com/jjs1233/python-web/blob/main/image/code.png
 
 Issue
 ---------------------------------------------
