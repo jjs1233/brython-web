@@ -1,0 +1,33 @@
+$(document).ready(function(){
+  $("#button1").click(function(){
+      $.post("single_or_double",
+      {
+        code:$("#title1").val()
+      },
+      function(data){
+        $("#show1").html(data);
+      });
+  });
+
+  $("#button2").click(function(){
+      $.post("task_1_run",
+      {
+        code:$("#title1").val(),
+        code:$("#title2").val()
+      },
+      function(data){
+        $("#show1").html(data);
+      });
+  });
+
+	$("#button3").click(function(){
+	  $.post("task_2_run",
+	  {
+	  	sex:$("#sex2").val().replace(/"/g,"'"),
+	    code:$("#title2").val().replace(/"/g,"'")
+	  },
+	  function(data){
+	    $("#show2").html(data);
+	  });
+  });
+});
