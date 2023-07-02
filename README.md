@@ -1,4 +1,4 @@
-#  python-web
+#  brython-web
 Target
 =========================
 >利用brython.js 配合 flask框架 现实把教师机作为服务器端，让学生可以在机房的电脑上课时候在浏览器内编写学习python代码
